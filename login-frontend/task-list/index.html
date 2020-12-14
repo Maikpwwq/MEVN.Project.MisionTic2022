@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container mt-5" id='app'>
+        <h1>
+            {{tittle}} <small class="text-muted"> sesion : {{sesion}} </small> 
+        </h1>
+
+        <mis-tareas></mis-tareas>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <!-- Components -->
+    <script src="./components/myWorks.js"></script>
+    
+    <!-- Last -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+<!--
+        <input type="text" class="form-control mt-5" v-model="nuevaTarea" v-on:keyup.enter="agregarTarea">
+
+        <label for="checkbox"> Asignar como Realizada </label>
+        <input type="checkbox" v-model="checked" id="checkbox">
+        
+
+        <button class='btn btn-dark w-100' @click="agregarTarea"> Agregar tarea</button>
+
+        <div class="mt-5">
+            <pre>
+                {{ $data }}
+            </pre>
+        </div>
+
+        <div class="" v-for="(item, index) of tareas" :key="item.id">
+-->
+            <!-- v-on v-bind -->
+<!--
+            <div :class="[item.estado? 'alert-success' : 'alert-warning']" class="alert alert-light" role="alert">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="col-6"> {{item.nombre}} </div>
+                    <div v-if="item.estado"> 
+                        <span>Si</span>
+                    </div>
+                    <div v-else>
+                        <span>No</span>
+                    </div>
+                    <div> 
+                        <button class="btn btn-success" @click="editarTarea(index)"> Ok </button> 
+                        <button class="btn btn-danger" @click="eliminarTarea(index)"> X </button> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+-->            
+
