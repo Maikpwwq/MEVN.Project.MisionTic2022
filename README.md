@@ -1,2 +1,15 @@
-# MEVN.Project.MisionTic2022
-Repositorio para el proyecto del ciclo 3 de desarrollo web
+# MERN Project - MisionTic2022 
+
+Co-crear - Contagiar - Intentar
+workshop Desarrollo de sitio web con tienda y login de usuarios
+
+## Roles
+
+> Michael Arias Fajardo
+
+## Secciones Proyecto
+
+1. MenuNav
+2. Servicios 
+3. Noticias
+4. Footer
